@@ -1,0 +1,88 @@
+*{margin: 0; padding: 0;}
+body{
+    background-color: #12372A;
+     color: antiquewhite
+
+}
+
+nav{
+display: flex;
+gap: 15%;
+ margin-top: 25px;
+
+}
+
+.Titulo{
+    padding-left: 10%;
+    font-size: 20PX;
+    font-family: fantasy;
+
+}   
+
+.menu1{
+display: flex;
+align-items: center;
+gap: 30%;
+font-size: 3vh;
+font-family: "Courgette", cursive;
+}
+
+a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+.Menus{
+    display: flex;
+    justify-content: center;
+    margin: 7vh;
+}
+
+.Menus h2{
+    margin-top: 50px;
+    font-size: 7vh;
+}
+
+
+.Planta1,.Planta2{
+display: flex;
+justify-content: center;
+gap: 15PX;
+font-family: 'Times New Roman', Times, serif;
+font-size: 1.5vh;
+
+}
+
+.Planta2{
+    margin-top: 6vh;
+}
+
+.Target1, .Target2, .Target3, .Target4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centra vertical */
+  border-radius: 15%;
+ background: linear-gradient(
+  to top,
+  rgba(107, 107, 107, 0.7),
+  rgba(107, 107, 107, 0.2)
+);
+
+  
+}
+
+
+.Target1 a,.Target2 a, .Target3 a, .Target4 a{
+    margin: 5px;
+}
+
+.Target1{
+    padding-top: 5px;
+}
+
+
+.Target1 img,.Target2 img, .Target3 img, .Target4 img {
+    margin: 5px;
+   width: 20vh;
+}
+
